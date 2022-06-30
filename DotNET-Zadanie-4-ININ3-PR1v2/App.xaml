@@ -1,0 +1,13 @@
+﻿<Application x:Class="DotNET_Zadanie_4_ININ3_PR1v2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DotNET_Zadanie_4_ININ3_PR1v2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <XmlDataProvider
+            x:Key="CarsData"
+            Source="Cars.xml"
+            XPath="Cars_Group"
+            />         
+    </Application.Resources>
+</Application>

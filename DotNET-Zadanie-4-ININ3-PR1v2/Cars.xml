@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Cars_Group>
+  <Group name="Osobowe">
+    <Name>Osobowe</Name>
+    <Description>Sample text</Description>
+    <Cars>
+      <Car id="1000">
+        <Model>Golf</Model>
+      </Car>
+    </Cars>
+  </Group>
+  <Group name="Ciezarowe">
+    <Name>Ciężarowe</Name>
+    <Description>Placeholder text</Description>
+    <Cars>
+      <Car id="2000">
+        <Name>Sprinter</Name>
+      </Car>
+    </Cars>
+  </Group>
+</Cars_Group>
