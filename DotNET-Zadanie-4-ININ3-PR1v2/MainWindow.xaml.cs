@@ -26,13 +26,13 @@ namespace DotNET_Zadanie_4_ININ3_PR1v2
             InitializeComponent();
         }
 
-        private void OpenSubcategoryWindow(object sender, RoutedEventArgs e)
+        private void OpenElementsWindow(object sender, RoutedEventArgs e)
         {
             ListBox list = (ListBox)this.FindName("carsGroup");
             XmlNode group = (XmlNode)list.SelectedItem;
             if (group != null)
             {
-                new SubcategoriesWindow(group).Show();
+                new ElementsWindow(group).Show();
             }
         }
     }
