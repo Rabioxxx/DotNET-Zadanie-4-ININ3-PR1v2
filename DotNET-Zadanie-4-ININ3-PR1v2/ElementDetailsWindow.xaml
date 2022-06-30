@@ -13,7 +13,8 @@
         </Grid.RowDefinitions>
 
         <TextBlock
-            Text="{Binding XPath=Description}"/>
+            TextWrapping="Wrap"
+            Text="{Binding XPath=Cars/CarDescription}"/>
 
         <DataGrid
             Grid.Row="1"
