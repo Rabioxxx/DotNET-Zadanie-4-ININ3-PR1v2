@@ -5,17 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DotNET_Zadanie_4_ININ3_PR1v2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="300" FontSize="26">
+        Title="Brands" Height="500" Width="300" FontSize="26">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
             <RowDefinition/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
+        <TextBlock
+            TextWrapping="Wrap"
+            Text="{Binding XPath=Description}"/>
         <ListBox
             x:Name="carsCategories"
             DataContext="{DynamicResource ResourceKey=CarsData}"
             ItemsSource="{Binding XPath=Group/Brand}"
+            Grid.Row="1"
             >
             <ListBox.ItemTemplate>
                 <DataTemplate>
@@ -25,7 +30,7 @@
         </ListBox>
         <Button
             Click="OpenDetailsWindow"
-            Grid.Row="1"
+            Grid.Row="2"
             Content="Check Elements"/>
     </Grid>
 </Window>

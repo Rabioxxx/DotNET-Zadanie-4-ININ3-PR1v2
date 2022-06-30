@@ -8,6 +8,6 @@
             x:Key="CarsData"
             Source="Cars.xml"
             XPath="Cars_Group"
-            />         
+            />
     </Application.Resources>
 </Application>

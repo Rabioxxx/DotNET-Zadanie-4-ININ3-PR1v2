@@ -1,17 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
-
-
 <Cars_Group>
   
   <Group name="Osobowe">
-    
-    <Description>Osobowe text description</Description>
-    
+    <Description>Samochody osobowe, to samochody do 3.5 tony.</Description>
     <Brand name="Volkswagen">
-      
       <Cars>
-        
+        <CarDescription>Volkswagen to Niemiecki koncern założony w 1937 roku</CarDescription>
         <Car id="1000">
           <Model>Golf</Model>
           <Year>1982</Year>
@@ -20,7 +14,7 @@
           <Gearbox>Manual</Gearbox>
           <Drive>Front wheels</Drive>
         </Car>
-        
+
         <Car id="1001">
           <Model>Passat</Model>
           <Year>1998</Year>
@@ -29,7 +23,7 @@
           <Gearbox>Manual</Gearbox>
           <Drive>Rear wheels</Drive>
         </Car>
-        
+
         <Car id="1002">
           <Model>New Beetle</Model>
           <Year>2001</Year>
@@ -38,14 +32,12 @@
           <Gearbox>Auto</Gearbox>
           <Drive>Front wheels</Drive>
         </Car>
-        
       </Cars>
-      
     </Brand>
     
     <Brand name="Mercedes-Benz">
+      <CarDescription>Mercedes to Niemiecka, luksusowa marka założona w 1926 roku</CarDescription>
       <Cars>
-        
         <Car id="1100">
           <Model>E 420</Model>
           <Year>1995</Year>
@@ -54,7 +46,7 @@
           <Gearbox>Manual</Gearbox>
           <Drive>Rear wheels</Drive>
         </Car>
-        
+
         <Car id="1101">
           <Model>C 180</Model>
           <Year>2010</Year>
@@ -63,7 +55,7 @@
           <Gearbox>Auto</Gearbox>
           <Drive>Rear wheels</Drive>
         </Car>
-        
+
         <Car id="1102">
           <Model>W 124</Model>
           <Year>1989</Year>
@@ -72,17 +64,15 @@
           <Gearbox>Manual</Gearbox>
           <Drive>Front wheels</Drive>
         </Car>
-        
       </Cars>
-      
     </Brand>
-    
   </Group> 
   
   <Group name="Ciezarowe">
-    <Description>Ciezarowe text description</Description>
+    <Description>Samochody ciezarowe to pojazdy powyzej 3.5 tony.</Description>
     <Brand name="DAF">
       <Cars>
+        <CarDescription>DAF to Holenderska firma produkująca samochody ciezarowe od 1928 roku</CarDescription>
         <Car id="2000">
           <Model>XF 106.480</Model>
           <Year>2019</Year>
@@ -114,6 +104,7 @@
     </Brand>
     <Brand name="MAN">
       <Cars>
+        <CarDescription>MAN to Niemiecki koncern założony w 1758 roku</CarDescription>
         <Car id="2100">
           <Model>TGL 8.240</Model>
           <Year>2008</Year>
@@ -144,30 +135,38 @@
       </Cars>
     </Brand>
   </Group>
+  
   <Group name="Motocykle">
-    <Description>Motocykle text description</Description>
-    <Brand name="DAF">
+    <Description>Motocykle to pojazdy jednosladowe.</Description>
+    <Brand name="Honda">
       <Cars>
+        <CarDescription>Honda to Japoński producent pojazdów założony w 1946 roku</CarDescription>
         <Car id="3000">
-          <Model>Placeholder_Car_Name1</Model>
-          <Year>2001</Year>
-          <Fuel>LPG</Fuel>
-          <Engine>1.2</Engine>
-          <Drive>Front wheels</Drive>
+          <Model>CA</Model>
+          <Year>1998</Year>
+          <Mileage>19000</Mileage>
+          <Fuel>Gas</Fuel>
+          <Engine>125 cm</Engine>
+          <Gearbox>Manual</Gearbox>
+          <Drive>Rear wheels</Drive>
         </Car>
         <Car id="3001">
-          <Model>Placeholder_Car_Name2</Model>
-          <Year>2001</Year>
-          <Fuel>LPG</Fuel>
-          <Engine>1.2</Engine>
-          <Drive>Front wheels</Drive>
+          <Model>CRF</Model>
+          <Year>2021</Year>
+          <Mileage>3000</Mileage>
+          <Fuel>Gas</Fuel>
+          <Engine>805 cm</Engine>
+          <Gearbox>Auto</Gearbox>
+          <Drive>Rear wheels</Drive>
         </Car>
         <Car id="3002">
-          <Model>Placeholder_Car_Name3</Model>
+          <Model>Shadow</Model>
           <Year>2001</Year>
-          <Fuel>LPG</Fuel>
+          <Mileage>36178</Mileage>
+          <Fuel>Gas</Fuel>
           <Engine>1.2</Engine>
-          <Drive>Front wheels</Drive>
+          <Gearbox>Manual</Gearbox>
+          <Drive>Rear wheels</Drive>
         </Car>
       </Cars>
     </Brand>
