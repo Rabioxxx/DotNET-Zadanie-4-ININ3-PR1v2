@@ -13,16 +13,18 @@
         </Grid.RowDefinitions>
 
         <ListBox
-            x:Name="CarsCategories"
-            ItemsSource="{Binding XPath=Group}"
+            x:Name="carsCategories"
+            DataContext="{DynamicResource ResourceKey=CarsData}"
+            ItemsSource="{Binding XPath=Group/Brand}"
             >
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding XPath=Description}"/>
+                    <TextBlock Text="{Binding XPath=@name}"/>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
         <Button
+            Click="OpenDetailsWindow"
             Grid.Row="1"
             Content="Check Elements"/>
     </Grid>

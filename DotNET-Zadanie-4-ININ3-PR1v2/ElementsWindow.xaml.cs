@@ -1,22 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using System.Xml;
 
 namespace DotNET_Zadanie_4_ININ3_PR1v2
 {
     /// <summary>
-    /// Interaction logic for SubcategoriesWindow.xaml
+    /// Interaction logic for ElementsWindow.xaml
     /// </summary>
     public partial class ElementsWindow : Window
     {
@@ -24,6 +13,16 @@ namespace DotNET_Zadanie_4_ININ3_PR1v2
         {
             DataContext = group;
             InitializeComponent();
+        }
+
+        private void OpenDetailsWindow(object sender, RoutedEventArgs e)
+        {
+            ListBox list = (ListBox)FindName("carsCategories");
+            XmlNode group = (XmlNode)list.SelectedItem;
+            if (group != null)
+            {
+                new ElementDetailsWindow(group).Show();
+            }
         }
     }
 }

@@ -1,45 +1,175 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+
 <Cars_Group>
+  
   <Group name="Osobowe">
-    <Description>Sample text</Description>
-    <Cars>
-      <Car id="1000">
-        <Model>Golf</Model>
-      </Car>
-      <Car id="1001">
-        <Model>Golf</Model>
-      </Car>
-      <Car id="1002">
-        <Model>Golf</Model>
-      </Car>
-    </Cars>
-  </Group>
+    
+    <Description>Osobowe text description</Description>
+    
+    <Brand name="Volkswagen">
+      
+      <Cars>
+        
+        <Car id="1000">
+          <Model>Golf</Model>
+          <Year>1982</Year>
+          <Engine>1.4</Engine>
+          <Fuel>Gas</Fuel>
+          <Gearbox>Manual</Gearbox>
+          <Drive>Front wheels</Drive>
+        </Car>
+        
+        <Car id="1001">
+          <Model>Passat</Model>
+          <Year>1998</Year>
+          <Engine>1.6</Engine>
+          <Fuel>LPG</Fuel>
+          <Gearbox>Manual</Gearbox>
+          <Drive>Rear wheels</Drive>
+        </Car>
+        
+        <Car id="1002">
+          <Model>New Beetle</Model>
+          <Year>2001</Year>
+          <Engine>1.2</Engine>
+          <Fuel>LPG</Fuel>
+          <Gearbox>Auto</Gearbox>
+          <Drive>Front wheels</Drive>
+        </Car>
+        
+      </Cars>
+      
+    </Brand>
+    
+    <Brand name="Mercedes-Benz">
+      <Cars>
+        
+        <Car id="1100">
+          <Model>E 420</Model>
+          <Year>1995</Year>
+          <Engine>1.5</Engine>
+          <Fuel>Gas</Fuel>
+          <Gearbox>Manual</Gearbox>
+          <Drive>Rear wheels</Drive>
+        </Car>
+        
+        <Car id="1101">
+          <Model>C 180</Model>
+          <Year>2010</Year>
+          <Engine>1.8</Engine>
+          <Fuel>Gas</Fuel>
+          <Gearbox>Auto</Gearbox>
+          <Drive>Rear wheels</Drive>
+        </Car>
+        
+        <Car id="1102">
+          <Model>W 124</Model>
+          <Year>1989</Year>
+          <Engine>2.0</Engine>
+          <Fuel>LPG</Fuel>
+          <Gearbox>Manual</Gearbox>
+          <Drive>Front wheels</Drive>
+        </Car>
+        
+      </Cars>
+      
+    </Brand>
+    
+  </Group> 
+  
   <Group name="Ciezarowe">
-    <Description>Placeholder text</Description>
-    <Cars>
-      <Car id="2000">
-        <Name>Sprinter</Name>
-      </Car>
-      <Car id="2001">
-        <Name>Transporter</Name>
-      </Car>
-      <Car id="2002">
-        <Name>Sprinter</Name>
-      </Car>
-    </Cars>
+    <Description>Ciezarowe text description</Description>
+    <Brand name="DAF">
+      <Cars>
+        <Car id="2000">
+          <Model>XF 106.480</Model>
+          <Year>2019</Year>
+          <Mileage>253000</Mileage>
+          <Fuel>Diesel</Fuel>
+          <Engine>12.9</Engine>
+          <Gearbox>Auto</Gearbox>
+          <Drive>All wheels</Drive>
+        </Car>
+        <Car id="2001">
+          <Model>FAN</Model>
+          <Year>2007</Year>
+          <Mileage>798000</Mileage>
+          <Fuel>Diesel</Fuel>
+          <Engine>12.9</Engine>
+          <Gearbox>Manual</Gearbox>
+          <Drive>All wheels</Drive>
+        </Car>
+        <Car id="2002">
+          <Model>CF 85.460</Model>
+          <Year>2013</Year>
+          <Mileage>599000</Mileage>
+          <Fuel>Diesel</Fuel>
+          <Engine>12.9</Engine>
+          <Gearbox>Auto</Gearbox>
+          <Drive>All wheels</Drive>
+        </Car>
+      </Cars>
+    </Brand>
+    <Brand name="MAN">
+      <Cars>
+        <Car id="2100">
+          <Model>TGL 8.240</Model>
+          <Year>2008</Year>
+          <Mileage>858000</Mileage>
+          <Fuel>Diesel</Fuel>
+          <Engine>6.9</Engine>
+          <Gearbox>Manual</Gearbox>
+          <Drive>All wheels</Drive>
+        </Car>
+        <Car id="2101">
+          <Model>TGX 18.480</Model>
+          <Year>2015</Year>
+          <Mileage>651708</Mileage>
+          <Fuel>Diesel</Fuel>
+          <Engine>12.9</Engine>
+          <Gearbox>Auto</Gearbox>
+          <Drive>All wheels</Drive>
+        </Car>
+        <Car id="2102">
+          <Model>18.640</Model>
+          <Year>2020</Year>
+          <Mileage>189000</Mileage>
+          <Fuel>Diesel</Fuel>
+          <Engine>12.9</Engine>
+          <Gearbox>Auto</Gearbox>
+          <Drive>All wheels</Drive>
+        </Car>
+      </Cars>
+    </Brand>
   </Group>
   <Group name="Motocykle">
-    <Description>Placeholder text2</Description>
-    <Cars>
-      <Car id="3000">
-        <Name>Placeholder_Car_Name1</Name>
-      </Car>
-      <Car id="3001">
-        <Name>Placeholder_Car_Name2</Name>
-      </Car>
-      <Car id="3002">
-        <Name>Placeholder_Car_Name3</Name>
-      </Car>
-    </Cars>
+    <Description>Motocykle text description</Description>
+    <Brand name="DAF">
+      <Cars>
+        <Car id="3000">
+          <Model>Placeholder_Car_Name1</Model>
+          <Year>2001</Year>
+          <Fuel>LPG</Fuel>
+          <Engine>1.2</Engine>
+          <Drive>Front wheels</Drive>
+        </Car>
+        <Car id="3001">
+          <Model>Placeholder_Car_Name2</Model>
+          <Year>2001</Year>
+          <Fuel>LPG</Fuel>
+          <Engine>1.2</Engine>
+          <Drive>Front wheels</Drive>
+        </Car>
+        <Car id="3002">
+          <Model>Placeholder_Car_Name3</Model>
+          <Year>2001</Year>
+          <Fuel>LPG</Fuel>
+          <Engine>1.2</Engine>
+          <Drive>Front wheels</Drive>
+        </Car>
+      </Cars>
+    </Brand>
   </Group>
 </Cars_Group>
